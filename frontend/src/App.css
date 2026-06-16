@@ -1,0 +1,122 @@
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.create-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.create-form input {
+  flex: 1;
+  min-width: 200px;
+  padding: 10px 12px;
+  border: 1px solid #d0d3da;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.create-form button {
+  padding: 10px 20px;
+  background-color: #4361ee;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.create-form button:disabled {
+  background-color: #9aa6f5;
+  cursor: not-allowed;
+}
+
+.error-text {
+  color: #d62828;
+  margin-top: 12px;
+}
+
+.success-text {
+  color: #2a9d8f;
+  margin-top: 12px;
+  word-break: break-all;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 10px 8px;
+  border-bottom: 1px solid #eef0f4;
+  font-size: 14px;
+}
+
+th {
+  color: #555b6e;
+  font-weight: 600;
+}
+
+.truncate {
+  max-width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+button {
+  font-family: inherit;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.total-clicks {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+  color: #4361ee;
+}
+
+@media (max-width: 600px) {
+  .create-form {
+    flex-direction: column;
+  }
+
+  .create-form button {
+    width: 100%;
+  }
+}

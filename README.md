@@ -2,6 +2,11 @@
 
 A full-stack MVP URL shortener built with the MERN stack (MongoDB, Express, React, Node) and TypeScript.
 
+## 🌐 Live Deployment
+- **Frontend Live URL:** https://trim-url-shortener.vercel.app/
+- **Backend Repository:** [trim-url-shortener-Backend](https://github.com/Yousef-Asaad/trim-url-shortener-Backend)
+
+*Note: For a cleaner deployment workflow on Vercel, the architecture was updated from a monorepo to separate repositories for Frontend and Backend.*
 ## 1. Setup
 
 ### Prerequisites
